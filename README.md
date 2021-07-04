@@ -1,24 +1,7 @@
 # flexible_word_book
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+単語帳アプリを作りたい  
+既存の単語帳アプリは単語の絞り込みなどの機能がない  
+理想は英単語を Database で管理し、正解率、登録日、開いた回数、最後に開いた日などの情報も保存する  
+英単語を Database に一元的に保存し、絞り込み機能によって毎回違う英単語帳を自動で作成するのが理想
+ホスティングサーバはAWS Cloud9
